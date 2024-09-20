@@ -84,7 +84,5 @@ let maxlength = text.getAttribute('maxlength')
 text.oninput = function () {
     countArea.innerHTML = maxlength - this.value.length
 
-  
-
 }
 
